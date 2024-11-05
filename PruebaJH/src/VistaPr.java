@@ -3,6 +3,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
 
 public class VistaPr extends JFrame {
 
@@ -35,6 +36,15 @@ public class VistaPr extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnlol = new JButton("Guardar");
+		btnlol.setBounds(156, 120, 89, 23);
+		contentPane.add(btnlol);
+		
+		JButton btnNewButton = new JButton("HOLA");
+		btnNewButton.setBounds(156, 74, 89, 23);
+		contentPane.add(btnNewButton);
 	}
 
 }
